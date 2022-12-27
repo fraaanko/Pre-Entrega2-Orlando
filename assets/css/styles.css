@@ -1,0 +1,254 @@
+header{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+
+h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#logo-imagen{
+    display: flex;
+    flex-direction:row;
+    width: 40px;
+    
+}
+
+#logo-escrito{
+    width: auto;
+    
+    
+}
+
+
+section{
+    
+    background-color: #fec7d7;
+}
+
+
+
+p{
+    background-color: #2b2c34;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+nav {
+    
+
+}
+
+nav ul {
+
+    font-size: 30px;
+    list-style: none;
+    
+}
+
+nav ul  li{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+    
+    font-weight:bold;
+    display:inline-block;
+    align-items:flex-end;
+    position: relative;
+}
+
+nav ul li:hover ul{
+
+    display: block;
+}
+
+nav ul li:hover ul li a{
+
+    background-color: white;
+    display: block;
+}
+
+nav ul li a{
+
+    color: #fec7d7;
+}
+
+nav ul ul {
+
+    position:relative;
+    display: none;
+}
+
+nav ul ul li{
+
+    display:block;
+}
+
+
+
+
+nav ul li a:hover{
+
+    color: orange
+}
+
+ */
+
+#Welcome{
+
+    color: blue;
+}
+
+footer p{
+
+    color: blueviolet;
+}
+
+footer{
+
+    background-color: brown;
+}
+
+
+.color-red {
+
+    background-color: #fec7d7;
+}
+
+.cambiarletra {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-text{
+
+    color: green;
+}
+
+.chakra-natures{
+    background-color: crimson;
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5,auto);
+    grid-template-areas: 
+    "cabecera"
+    "hero"
+    "productos"
+    "pie"
+    
+    
+    
+    ;
+
+}
+/* Cabecera */
+
+#cabecera{
+    grid-area: cabecera;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+   
+}
+
+
+
+ 
+
+.menu{
+display: flex;
+flex-direction: column;
+
+    
+}
+
+.menu ul {
+
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu ul  li{
+
+    color: #fec7d7;
+    font-weight:bold;
+    display:inline-block;
+    position: relative;
+}
+
+.menu ul li:hover ul{
+
+    display: block;
+}
+
+.menu ul li:hover ul li a{
+
+    background-color: white;
+    display: block;
+}
+
+.menu ul li a{
+
+    color: #fec7d7;
+}
+
+.menu ul ul {
+
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul li{
+
+    display:block;
+}
+
+
+
+
+.menu ul li a:hover{
+
+    color: orange
+}
+/* Contenido principal */
+#hero{
+    grid-area: hero;
+
+}
+
+#productos{
+    grid-area: productos;
+
+}
+
+/* Pie de pagina */
+#pie{
+    grid-area: pie;
+
+}

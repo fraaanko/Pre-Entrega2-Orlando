@@ -1,0 +1,91 @@
+header{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+}
+
+h2{
+   font-size:35px 
+
+}
+
+p{
+    font-size: 20px;
+    background-color: yellow;
+}
+
+/* Menú Navegación */
+
+nav {
+
+}
+
+nav ul {
+
+    font-size: 30px;
+    list-style: none;
+}
+
+nav ul  li{
+
+    color: #fec7d7;
+    font-weight:bold;
+    display:inline-block;
+    position: relative;
+}
+
+nav ul li:hover ul{
+
+    display: block;
+}
+
+nav ul li:hover ul li a{
+
+    background-color: white;
+    display: block;
+}
+
+nav ul li a{
+
+    color: #fec7d7;
+}
+
+nav ul ul {
+
+    position: absolute;
+    display: none;
+}
+
+nav ul ul li{
+
+    display:block;
+}
+
+
+
+
+nav ul li a:hover{
+
+    color: orange
+}
+
+footer p{
+
+    color: blueviolet;
+}
+
+footer{
+    font-size:  20px;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
