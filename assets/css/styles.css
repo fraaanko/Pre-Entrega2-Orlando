@@ -63,10 +63,6 @@ footer{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#color-letra{
-    background-color: rebeccapurple;
-
-}
 
 
 
@@ -107,7 +103,13 @@ footer{
 
     display: flex;
     justify-content: space-between;
+    background-color: #D18615
 }   
+
+.minav{
+    background-color: #D18615;
+
+}
 
  
 /* Contenido principal */
@@ -126,4 +128,3 @@ footer{
     grid-area: pie;
 
 }
-
