@@ -23,15 +23,12 @@ h1{
 }
 
 
-section{
-    
-    background-color: #fec7d7;
-}
+
 
 
 
 p{
-    background-color: #2b2c34;
+    
     font-size: 21px;
     font-weight: bold;
 }
@@ -53,7 +50,7 @@ footer p{
 
 footer{
 
-    background-color: brown;
+   
 }
 
 
@@ -66,14 +63,8 @@ footer{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main-text{
-
-    color: green;
-    
-}
-
-.chakra-natures{
-    background-color: crimson;
+#color-letra{
+    background-color: rebeccapurple;
 
 }
 
