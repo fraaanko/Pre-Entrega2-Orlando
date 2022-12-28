@@ -9,20 +9,6 @@ h1{
     
 }
 
-#logo-imagen{
-    display: flex;
-    flex-direction:row;
-    width: 40px;
-    
-}
-
-#logo-escrito{
-    width: auto;
-    
-    
-}
-
-
 
 
 
@@ -34,23 +20,11 @@ p{
 }
 
 
-
-
- */
-
-#Welcome{
-
-    color: blue;
-}
+ 
 
 footer p{
 
     color: blueviolet;
-}
-
-footer{
-
-   
 }
 
 
@@ -73,32 +47,8 @@ footer{
 
 }
 
-#contenedor{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(5,auto);
-    grid-template-areas: 
-    "cabecera"
-    "hero"
-    "productos"
-    "pie"
-    
-    
-    
-    ;
 
-}
-/* Cabecera */
-
-#cabecera{
-    grid-area: cabecera;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-   
-}
-
+/* menú de navegación */
 #logo-nav{
 
     display: flex;
@@ -112,19 +62,3 @@ footer{
 }
 
  
-/* Contenido principal */
-#hero{
-    grid-area: hero;
-
-}
-
-#productos{
-    grid-area: productos;
-
-}
-
-/* Pie de pagina */
-#pie{
-    grid-area: pie;
-
-}
