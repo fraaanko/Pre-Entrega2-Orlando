@@ -5,45 +5,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About-anime</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="assets/css/styles-anime.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
         
         <body>
-            <header>
-                    <div id="logo">      
-                        <h1>Naruto - Wiki</h1>
-                    </div>
-        
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">About Naruto</a>
-                    
-                                <ul> 
-                                    <li><a href="index-anime.html">Anime</a></li>
-                                    <li><a href="index-manga.html">Manga</a></li>
-                                </ul>
-                
-                
-                            </li>
-                                <li><a href="index-characters.html">Characters</a></li>
-                                <li><a href="index-villages.html">Villages</a></li>
-                                <li><a href="index-clans.html">Clans</a></li>
-                                <li><a href="#">Jutsus</a></li>
-    
-                        </ul>   
+            <div id="logo-nav">
+                    <nav class="navbar bg- minav">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-dark link-warning" href="index.html">
+                                <img src="./assets/img/logouzumaki.jpg" alt="Logo" width="30" height="30"
+                                    class="d-inline-block align-text-top">
+                                Naruto - Wiki
+                            </a>
+                        </div>
                     </nav>
+            
+            
+                    <nav class="navbar navbar-expand-lg bg- minav">
+                        <div class="container-fluid nav justify-content-end"></div>
+                        <a class="navbar-brand text-dark link-warning" href="index-anime.html">Anime</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-dark link-warning" aria-current="page"
+                                        href="index-characters.html">Characters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark link-warning" href="index-clans.html">Clans</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark link-warning" href="index-villages.html">Villages</a>
+                                </li>
+            
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark link-warning" href="index-manga.html">Manga</a>
+                                </li>
+            
+                            </ul>
+                        </div>
+                    </nav>
+             </div>
 
-            </header>
 
 
             <main>
-                <img src="assets/img/narutoanime.jpg" width="200" alt="Naruto anime">
-
+                
                 <div>
                     <h2><strong>Anime</strong></h2>
                 </div>
@@ -51,7 +66,42 @@
                 <p>The Naruto anime, directed by Hayato Date and produced by Studio Pierrot and TV Tokyo, premiered in Japan on October 3, 2002, and concluded on February 8, 2007, after 220 episodes on TV Tokyo. The first 135 episodes were adapted from Part I of the manga; the remaining 85 episodes are original and use plot elements that are not in the manga. Tetsuya Nishio was the character designer for Naruto when the manga was adapted into an anime series; Kishimoto had requested that Nishio be given this role. Beginning on April 29, 2009, the original Naruto anime began a rerun on Wednesdays and Thursdays (until the fourth week of September 2009 when it changed to only Wednesdays). It was remastered in HD, with new 2D and 3D effects, under the name Naruto: Shōnen Hen. Episodes from the series have been released on both VHS and DVD, and collected as boxed sets.</p>
                     
             </main>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/Naruto_logo.svg.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/275589-naruto-shippuden-article_cover_bd-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/1366_2000.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
             
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
             <footer>
                 Naruto
             </footer>

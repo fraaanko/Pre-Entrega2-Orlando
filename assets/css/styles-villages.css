@@ -26,55 +26,16 @@ p{
 
 /* Menú Navegación */
 
-nav {
+#logo-nav{
 
-}
+    display: flex;
+    justify-content: space-between;
+    background-color: #D18615
+}   
 
-nav ul {
+.minav{
+    background-color: #D18615;
 
-    font-size: 30px;
-    list-style: none;
-}
-
-nav ul  li{
-
-    color: #fec7d7;
-    font-weight:bold;
-    display:inline-block;
-    position: relative;
-}
-
-nav ul li:hover ul{
-
-    display: block;
-}
-
-nav ul li:hover ul li a{
-
-    background-color: white;
-    display: block;
-}
-
-nav ul li a{
-
-    color: #fec7d7;
-}
-
-nav ul ul {
-
-    position: absolute;
-    display: none;
-}
-
-nav ul ul li{
-
-    display:block;
-}
-
-
-nav ul li a:hover{
-
-    color: orange
 }
 
 footer p{

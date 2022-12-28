@@ -5,45 +5,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About-anime</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="assets/css/styles-clans.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     </head>
         
         <body>
-            <header>
-                    <div id="logo">      
-                        <h1>Naruto - Wiki</h1>
+            <div id="logo-nav">
+                <nav class="navbar bg- minav">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-dark link-warning" href="index.html">
+                            <img src="./assets/img/logouzumaki.jpg" alt="Logo" width="30" height="30"
+                                class="d-inline-block align-text-top">
+                            Naruto - Wiki
+                        </a>
                     </div>
+                </nav>
         
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">About Naruto</a>
-                    
-                                <ul> 
-                                    <li><a href="index-anime.html">Anime</a></li>
-                                    <li><a href="index-manga.html">Manga</a></li>
-                                </ul>
-                
-                
+        
+                <nav class="navbar navbar-expand-lg bg- minav">
+                    <div class="container-fluid nav justify-content-end"></div>
+                    <a class="navbar-brand text-dark link-warning" href="index-anime.html">Anime</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark link-warning" aria-current="page"
+                                    href="index-characters.html">Characters</a>
                             </li>
-                                <li><a href="index-characters.html">Characters</a></li>
-                                <li><a href="index-villages.html">Villages</a></li>
-                                <li><a href="index-clans.html">Clans</a></li>
-                                <li><a href="#">Jutsus</a></li>
-    
-                        </ul>   
-                    </nav>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark link-warning" href="index-clans.html">Clans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark link-warning" href="index-villages.html">Villages</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link text-dark link-warning" href="index-manga.html">Manga</a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </nav>
+         </div>
 
-            </header>
 
 
             <main>
-                <img src="assets/img/narutoclans.jpg" width="400" alt="Naruto anime">
-
                 <div>
                     <h2><strong>Clans</strong></h2>
                 </div>
@@ -51,6 +66,40 @@
                 <p>A clan (一族, Ichizoku, literally meaning: household, clan), in the loosest sense of the term, refers to a family or group of shinobi who form a basic unit of a shinobi village. A majority of these clans were mercenary military forces even before the First Shinobi World War.[1] The Senju clan and Uchiha clan were the first known clans to have agreed to settle and form a shinobi village, facilitated by creating agreements with the daimyō of the land they inhabit. Many clans would follow the example of the Senju and the Uchiha, later establishing the Five Great Shinobi Countries as they are known today. Membership in a clan is usually determined by blood relations and genetics, which is vital in the usage of kekkei genkai and secret techniques. These attributes and abilities made many clans feared and renowned throughout many villages. While clans may be composed of many individuals and extended families, many clans mentioned and seen in the series were somewhat limited to a nuclear family.</p>
                     
             </main>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/clans1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/clans2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/clans3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
             
             <footer>
                 Naruto
