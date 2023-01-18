@@ -1,0 +1,46 @@
+@use "_commons" as c;
+h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
+p{
+    
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+ 
+
+footer p{
+
+    color: blueviolet;
+}
+
+
+.color-red {
+
+    background-color: #fec7d7;
+}
+
+.cambiarletra {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
