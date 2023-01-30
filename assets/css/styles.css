@@ -37,9 +37,48 @@ footer p{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#team7{
+    background-color: white;
+}
 
 
 
+#team7{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "uzumaki" 
+    "uchiha" 
+    "haruno" 
+    "hatake"
+    
+    ;
+
+
+}
+@media only screen and (min-width: 1280px){
+    #team7{
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    
+    "uzumaki" "uchiha" "haruno" "hatake"
+    
+    ;
+}
+
+}
+ @media only screen and (min-width: 1280px){
+    #team7{
+
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 *{
     margin: 0;
